@@ -37,8 +37,9 @@ ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
 
 ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
   geom_point() +
-  theme_amazing()
+  theme_crazy()
 
+devtools::install_github("tommats00/tomr")
 
 
 ```
